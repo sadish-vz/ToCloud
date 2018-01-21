@@ -1,0 +1,10 @@
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\bin\Debug\netcoreapp2.0\MyApitoAws.deps.json
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\bin\Debug\netcoreapp2.0\MyApitoAws.runtimeconfig.json
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\bin\Debug\netcoreapp2.0\MyApitoAws.runtimeconfig.dev.json
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\bin\Debug\netcoreapp2.0\MyApitoAws.dll
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\bin\Debug\netcoreapp2.0\MyApitoAws.pdb
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\obj\Debug\netcoreapp2.0\MyApitoAws.csproj.CoreCompileInputs.cache
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\obj\Debug\netcoreapp2.0\MyApitoAws.AssemblyInfoInputs.cache
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\obj\Debug\netcoreapp2.0\MyApitoAws.AssemblyInfo.cs
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\obj\Debug\netcoreapp2.0\MyApitoAws.dll
+C:\Users\Janani\Desktop\AwsMS\MyApitoAws\obj\Debug\netcoreapp2.0\MyApitoAws.pdb

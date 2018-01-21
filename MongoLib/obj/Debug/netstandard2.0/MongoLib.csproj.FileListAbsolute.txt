@@ -1,0 +1,8 @@
+C:\Users\Janani\Desktop\AwsMS\MongoLib\obj\Debug\netstandard2.0\MongoLib.csproj.CoreCompileInputs.cache
+C:\Users\Janani\Desktop\AwsMS\MongoLib\obj\Debug\netstandard2.0\MongoLib.AssemblyInfoInputs.cache
+C:\Users\Janani\Desktop\AwsMS\MongoLib\obj\Debug\netstandard2.0\MongoLib.AssemblyInfo.cs
+C:\Users\Janani\Desktop\AwsMS\MongoLib\bin\Debug\netstandard2.0\MongoLib.deps.json
+C:\Users\Janani\Desktop\AwsMS\MongoLib\bin\Debug\netstandard2.0\MongoLib.dll
+C:\Users\Janani\Desktop\AwsMS\MongoLib\bin\Debug\netstandard2.0\MongoLib.pdb
+C:\Users\Janani\Desktop\AwsMS\MongoLib\obj\Debug\netstandard2.0\MongoLib.dll
+C:\Users\Janani\Desktop\AwsMS\MongoLib\obj\Debug\netstandard2.0\MongoLib.pdb

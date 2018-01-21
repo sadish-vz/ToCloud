@@ -1,0 +1,133 @@
+{
+	"basePath": "/",
+	"consumes": [
+		"application/json"
+	],
+	"definitions": {
+		"Book": {
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"authorName": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"name",
+				"authorName"
+			],
+			"type": "object"
+		},
+		"loggedIn": {
+			"properties": {
+				"checkUser": {
+					"type": "string"
+				},
+				"isAuthenticated": {
+					"type": "boolean"
+				}
+			},
+			"required": [
+				"checkUser",
+				"isAuthenticated"
+			],
+			"type": "object"
+		}
+	},
+	"info": {
+		"title": "node101",
+		"version": "1.0.0",
+		"description": "Create your first web api using node and deploy it to Azure",
+		"license": {
+			"name": "MIT"
+		}
+	},
+	"paths": {
+		"/books/get/{userid}": {
+			"get": {
+				"operationId": "BooksGetBooks",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"schema": {
+							"type": "array",
+							"items": {
+								"$ref": "#/definitions/Book"
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "userid",
+						"required": true,
+						"type": "string"
+					}
+				]
+			}
+		},
+		"/users/isAuthenticated/{checkuser}": {
+			"get": {
+				"operationId": "UsersIsAuthenticatedUser",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"schema": {
+							"type": "boolean"
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "checkuser",
+						"required": true,
+						"type": "string"
+					}
+				]
+			}
+		},
+		"/users/isAuthenticated": {
+			"post": {
+				"operationId": "UsersAuthenticate",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"schema": {
+							"$ref": "#/definitions/loggedIn"
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "login",
+						"required": true,
+						"schema": {
+							"$ref": "#/definitions/loggedIn"
+						}
+					}
+				]
+			}
+		}
+	},
+	"produces": [
+		"application/json"
+	],
+	"swagger": "2.0",
+	"securityDefinitions": {}
+}
